@@ -24,4 +24,4 @@ The web-application provided a separated web-page to create livestreams.
 
 
 
-![alt ApplicationOverview](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/Application_Overview.pdf)
+![alt ApplicationOverview](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/Overview.png)
