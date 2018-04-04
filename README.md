@@ -12,13 +12,13 @@ containing additional information about the played piece e.g. sheet music, compo
 To do so, a new widget was added that contained all referenced (live) Youtube videos that could be watched and compared while following 
 the sheet music displayed on the same IMSLP page.
 
-![alt IMSLP-Embed](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/IMSLP-Embed.png)
+![alt IMSLP-Embed](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/doc/IMSLP-Embed.png)
 
 ### Go live via Youtube and link performance with IMSLP.org
 
 Besides guidance for the user on how to set up a livestream, the YoutubeAPI was implemented to carry out a large part of work to create a livestream for fast and easy user access. For the guidance and setup process a separated webpage was provided. The user interface was written in Java with the GWT (Google Web Toolkit). 
 
-![alt GoLiveSection](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/GoLiveSection.png)
+![alt GoLiveSection](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/doc/GoLiveSection.png)
 
 
 ### Implementation
@@ -29,9 +29,9 @@ The added (html/css/javascript) widget on IMSLP.org accessed video references in
 Three cron-jobs executed in regular intervals were implemented to keep the database clean f.e. by deleting outdated references.
 
 
-![alt ApplicationOverview](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/Overview.png)
+![alt ApplicationOverview](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/doc/Overview.png)
 
 
 ### References
 
-Full documentation can be found [here](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/Bachelorarbeit_Thomas_Steinbrecher.pdf)
+Full documentation can be found [here](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/doc/Bachelorarbeit_Thomas_Steinbrecher.pdf)
