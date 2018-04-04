@@ -9,14 +9,13 @@ The project is currently not online anymore. At time of deployment it was fully 
 
 The web-application allowed users to create livestreams via Youtube which were directly referenced on the corresponding IMSLP page 
 containing additional information about the played piece e.g. sheet music, composer, date of composition etc.
-To do so, a new widget was added that contained all referenced (live) Youtube videos that could be watched and compared while following 
-the sheet music displayed on the same IMSLP page.
+To do so, a new widget (as shown below) was added that contained all referenced (live) Youtube videos that could be watched and compared while following the sheet music displayed on the same IMSLP page.
 
 ![alt IMSLP-Embed](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/doc/IMSLP-Embed.png)
 
 ### Go live via Youtube and link performance with IMSLP.org
 
-Besides guidance for the user on how to set up a livestream, the YoutubeAPI was implemented to carry out a large part of work to create a livestream for fast and easy user access. For the guidance and setup process a separated webpage was provided. The user interface was written in Java with the GWT (Google Web Toolkit). 
+Besides guidance for the user on how to set up a livestream, the YoutubeAPI was implemented to carry out a large part of work to create a livestream for fast and easy user access. For the guidance and setup process a separated webpage was provided (see image below). The user interface was written in Java with the GWT (Google Web Toolkit). 
 
 ![alt GoLiveSection](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/doc/GoLiveSection.png)
 
