@@ -34,4 +34,4 @@ Three cron-jobs executed in regular intervals were implemented to keep the datab
 
 ### References
 
-Full documentation can be found [here](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/Bachelorarbeit_Thomas_Steinbrecher)
+Full documentation can be found [here](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/Bachelorarbeit_Thomas_Steinbrecher.pdf)
