@@ -3,7 +3,7 @@ Live video streaming extension for the largest online sheet music community [IMS
 
 IMSLP.org is the largest online sheet music community containing sheet music for most classical music pieces.
 This project enabled musicians to provide livestreams of their interpretations of IMSLP music pieces via Youtube Live.
-The project is currently not online. At time of deployment it was fully functional and the documentation is provided.
+The project is currently not online anymore. At time of deployment it was fully functional and the documentation is provided.
 
 ### Embedded Youtube players
 
