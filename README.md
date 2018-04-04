@@ -15,15 +15,16 @@ the sheet music displayed on the same IMSLP page.
 
 ### Go live via Youtube and link performance with IMSLP.org
 
-Besides guidance for the user on how to set up a livestream, the YoutubeAPI was implemented to carry out a large part of work to create a livestream for fast and easy user access. For the guidance and setup process a separated webpage was provided.
+Besides guidance for the user on how to set up a livestream, the YoutubeAPI was implemented to carry out a large part of work to create a livestream for fast and easy user access. For the guidance and setup process a separated webpage was provided. The user interface was written in Java with the GWT (Google Web Toolkit). 
 
 ![alt GoLiveSection](https://raw.githubusercontent.com/MrStonebreaker/IMSLP-Video-Live-Streaming/master/GoLiveSection.png)
 
 
 ### Implementation
 
-The YoutubeAPI implementation to set up livestreams was written in Java. 
-References of Youtube (live) videos were hold in a database. When a livestream was created the responsible Java servlet created an entry in the database. The added (html/css/javascript) widget on IMSLP.org accessed video references in the database via AJAX-calls. 
+The YoutubeAPI implementation to set up livestreams was written in Java. The client-server infrastructure was provided by GoogleApp Engine.
+References of Youtube (live) videos were hold in a database. When a livestream was created the responsible Java servlet created an entry in the database. 
+The added (html/css/javascript) widget on IMSLP.org accessed video references in the database via AJAX-calls. 
 Three cron-jobs executed in regular intervals were implemented to keep the database clean f.e. by deleting outdated references.
 
 
